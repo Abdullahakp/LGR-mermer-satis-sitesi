@@ -6,6 +6,8 @@ Bu proje Fırat Üniversitesi Teknoloji Faküktesi Yazılım Mühendisliği 4. S
 --> 195541073 Abdullah AKPINAR
 --> 16541031 Mumin EREN
 
+\*\* ÖNEMLİ : proje sunumu youtube linki: https://www.youtube.com/watch?v=UhOipLXBLug
+
 Projeyi ayağa kaldırmak için lütfen aşağıdaki adımları sırası ile izleyiniz..
 1- Projeyi githubdan edindikten sonra lütfen klasör dizininde iken bağımlılıkları indirmek için "npm install" komutunu yazıp çalıştırınız.
 
