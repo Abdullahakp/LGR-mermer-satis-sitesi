@@ -6,4 +6,9 @@ Bu proje Fırat Üniversitesi Teknoloji Faküktesi Yazılım Mühendisliği 4. S
 --> 195541073 Abdullah AKPINAR
 --> 16541031 Mumin EREN
 
+Projeyi ayağa kaldırmak için lütfen aşağıdaki adımları sırası ile izleyiniz..
+1- Projeyi githubdan edindikten sonra lütfen klasör dizininde iken bağımlılıkları indirmek için "npm install" komutunu yazıp çalıştırınız.
+
+2- projeyi ayağa kaldırmak için lütfen "npm run dev" komutunu çalıştırınız.
+
 proje hocamız sayın Doc. Dr. Fatih ÖZKAYNAK'a teşekkür ederiz.
