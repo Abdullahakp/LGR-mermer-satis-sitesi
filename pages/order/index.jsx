@@ -9,16 +9,16 @@ const Order = () => {
             <thead className="text-xs text-gray-400 uppercase bg-gray-700">
               <tr>
                 <th scope="col" className="py-3 px-6">
-                  ORDER ID
+                  Sipariş ID
                 </th>
                 <th scope="col" className="py-3 px-6">
-                  CUSTOMER
+                  Müşteri
                 </th>
                 <th scope="col" className="py-3 px-6">
-                  ADDRESS
+                  Adress
                 </th>
                 <th scope="col" className="py-3 px-6">
-                  TOTAL
+                  Toplam
                 </th>
               </tr>
             </thead>

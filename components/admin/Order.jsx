@@ -15,13 +15,13 @@ const Order = () => {
                 Müşteri
               </th>
               <th scope="col" className="py-3 px-6">
-                TOTAL
+                Toplam
               </th>
               <th scope="col" className="py-3 px-6">
                 Ödeme
               </th>
               <th scope="col" className="py-3 px-6">
-                Statü
+                Durum
               </th>
               <th scope="col" className="py-3 px-6">
                 Hareket

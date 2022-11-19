@@ -12,7 +12,7 @@ const Category = () => {
       <div className="mt-5">
         <div className="flex gap-4 flex-1 items-center">
           <Input
-            placeholder="Add a new Category..."
+            placeholder="Yeni bir kategori ekle..."
             onChange={(e) => setInputText(e.target.value)}
             value={inputText}
           />
@@ -23,7 +23,7 @@ const Category = () => {
               setInputText("");
             }}
           >
-           Ekle
+            Ekle
           </button>
         </div>
         <div className="mt-10">
@@ -36,7 +36,7 @@ const Category = () => {
                   setCategories(categories.filter((cat) => cat !== category))
                 }
               >
-               Sil
+                Sil
               </button>
             </div>
           ))}

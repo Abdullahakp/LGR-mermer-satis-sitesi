@@ -6,7 +6,12 @@ const Index = () => {
   return (
     <div className="flex items-center h-screen gap-20 py-20 flex-wrap ">
       <div className="relative md:flex-1 w-[80%] h-[80%] mx-20">
-        <Image src="/Images/visne.jpg" alt="" layout="fill" objectFit="contain" />
+        <Image
+          src="/Images/visne.jpg"
+          alt=""
+          layout="fill"
+          objectFit="contain"
+        />
       </div>
       <div className="md:flex-1 md:text-start text-center">
         <Title addClass="text-6xl">Vişne Mermeri</Title>
@@ -14,12 +19,14 @@ const Index = () => {
           $50
         </span>
         <p className="text-sm my-4 md:pr-24">
-          Vişne Mermeri Vişne Mermeri Vişne Mermeri Vişne Mermeri Vişne Mermeri Vişne Mermeri
+          Vişne Mermeri Vişne Mermeri Vişne Mermeri Vişne Mermeri Vişne Mermeri
+          Vişne Mermeri
         </p>
         <div>
-          <h4 className="text-xl font-bold">Choose the size</h4>
+          <h4 className="text-xl font-bold">Şekli seçiniz</h4>
+          <br></br>
           <div className="flex items-center gap-x-20 md:justify-start justify-center">
-          <div className="relative w-16 h-16">
+            <div className="relative w-16 h-16">
               <Image src="/Images/visne.jpg" alt="" layout="fill" />
               <span className="absolute top-0 -right-6 text-xs bg-primary rounded-full px-[5px] font-medium">
                 DÜZ
@@ -32,10 +39,10 @@ const Index = () => {
               </span>
             </div>
             <div className="relative w-16 h-16 ">
-                <div className="rounded-md">
+              <div className="rounded-md">
                 <Image src="/Images/visne.jpg" alt="" layout="fill" />
-                </div>
-              
+              </div>
+
               <span className="absolute top-0 -right-6 text-xs bg-primary rounded-full px-[5px] font-medium">
                 DOĞAL
               </span>

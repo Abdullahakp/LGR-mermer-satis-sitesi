@@ -26,7 +26,7 @@ const Password = () => {
       id: 1,
       name: "password",
       type: "password",
-      placeholder: "Your Password",
+      placeholder: "Şifreniz",
       value: values.password,
       errorMessage: errors.password,
       touched: touched.password,
@@ -35,7 +35,7 @@ const Password = () => {
       id: 2,
       name: "confirmPassword",
       type: "password",
-      placeholder: "Your Confirm Password",
+      placeholder: "Şifrenizi tekrar giriniz",
       value: values.confirmPassword,
       errorMessage: errors.confirmPassword,
       touched: touched.confirmPassword,
@@ -54,9 +54,7 @@ const Password = () => {
           />
         ))}
       </div>
-      <button className="btn-primary mt-4" >
-        Update
-      </button>
+      <button className="btn-primary mt-4">Güncelle</button>
     </form>
   );
 };

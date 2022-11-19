@@ -13,24 +13,24 @@ const Reservation = () => {
   };
 
   const { values, errors, touched, handleSubmit, handleChange, handleBlur } =
-  useFormik({
-    initialValues: {
-      fullName: "",
-      phoneNumber: "",
-      email: "",
-      persons: "",
-      date: "",
-    },
-    onSubmit,
-    validationSchema: reservationSchema,
-  });
+    useFormik({
+      initialValues: {
+        fullName: "",
+        phoneNumber: "",
+        email: "",
+        persons: "",
+        date: "",
+      },
+      onSubmit,
+      validationSchema: reservationSchema,
+    });
 
   const inputs = [
     {
       id: 1,
       name: "fullName",
       type: "text",
-      placeholder: "Your Full Name",
+      placeholder: "Adınız ve soyadınız",
       value: values.fullName,
       errorMessage: errors.fullName,
       touched: touched.fullName,
@@ -39,7 +39,7 @@ const Reservation = () => {
       id: 2,
       name: "phoneNumber",
       type: "number",
-      placeholder: "Your Phone Number",
+      placeholder: "Telefon numaranız",
       value: values.phoneNumber,
       errorMessage: errors.phoneNumber,
       touched: touched.phoneNumber,
@@ -48,7 +48,7 @@ const Reservation = () => {
       id: 3,
       name: "email",
       type: "email",
-      placeholder: "Your Email Address",
+      placeholder: "Email adresiniz",
       value: values.email,
       errorMessage: errors.email,
       touched: touched.email,
@@ -57,7 +57,7 @@ const Reservation = () => {
       id: 4,
       name: "persons",
       type: "number",
-      placeholder: "How Many Persons?",
+      placeholder: "Kaç adet?",
       value: values.persons,
       errorMessage: errors.persons,
       touched: touched.persons,
@@ -67,7 +67,7 @@ const Reservation = () => {
       name: "persons",
       name: "date",
       type: "datetime-local",
-      placeholder: "How Many Persons?",
+      placeholder: "Kaç kişi?",
       value: values.date,
       errorMessage: errors.date,
       touched: touched.date,
@@ -76,20 +76,20 @@ const Reservation = () => {
 
   return (
     <div className="container mx-auto py-12">
-      <Title addClass="text-[40px] mb-10">Book A Table</Title>
+      <Title addClass="text-[40px] mb-10">Sipariş formu</Title>
       <div className="flex justify-between flex-wrap-reverse gap-10">
-      <form className="lg:flex-1 w-full" onSubmit={handleSubmit}>
+        <form className="lg:flex-1 w-full" onSubmit={handleSubmit}>
           <div className="flex flex-col gap-y-3">
             {inputs.map((input) => (
               <Input
-              key={input.id}
-              {...input}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-          ))}
+                key={input.id}
+                {...input}
+                onChange={handleChange}
+                onBlur={handleBlur}
+              />
+            ))}
           </div>
-         
+
           <button className="btn-primary mt-4">Ön Sipariş Yap</button>
         </form>
         <div className="lg:flex-1 w-full">

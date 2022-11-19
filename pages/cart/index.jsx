@@ -9,8 +9,8 @@ const Cart = () => {
           <table className="w-full text-sm text-center text-gray-500 min-w-[1000px]">
             <thead className="text-xs text-gray-400 uppercase bg-gray-700">
               <tr>
-              <th scope="col" className="py-3 px-6">
-                  PRODUCT
+                <th scope="col" className="py-3 px-6">
+                  Ürünler
                 </th>
                 <th scope="col" className="py-3 px-6">
                   Fidan Bağışı
@@ -24,9 +24,14 @@ const Cart = () => {
               </tr>
             </thead>
             <tbody>
-            <tr className="transition-all bg-secondary border-gray-700 hover:bg-primary ">
+              <tr className="transition-all bg-secondary border-gray-700 hover:bg-primary ">
                 <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white flex items-center gap-x-1 justify-center">
-                  <Image src="/Images/visne.jpg" alt="" width={50} height={50} />
+                  <Image
+                    src="/Images/visne.jpg"
+                    alt=""
+                    width={50}
+                    height={50}
+                  />
                   <span>Vişne Mermeri </span>
                 </td>
                 <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white">
@@ -43,17 +48,17 @@ const Cart = () => {
           </table>
         </div>
         <div className="bg-secondary min-h-[calc(100vh_-_433px)] flex flex-col justify-center text-white p-12 md:w-auto w-full   md:text-start !text-center">
-          <Title addClass="text-[40px]">CART TOTAL</Title>
+          <Title addClass="text-[40px]">SEPET</Title>
 
           <div className="mt-6">
-            <b>Subtotal: </b>$20 <br />
-            <b className=" inline-block my-1">Discount: </b>$0.00 <br />
-            <b>Total: </b>$20
+            <b>Fiyat: </b>$20 <br />
+            <b className=" inline-block my-1">İndirim: </b>$0.00 <br />
+            <b>Toplam: </b>$20
           </div>
 
           <div>
             <button className="btn-primary mt-4 md:w-auto w-52">
-            ŞİMDİ KONTROL ET!
+              ŞİMDİ KONTROL ET!
             </button>
           </div>
         </div>
